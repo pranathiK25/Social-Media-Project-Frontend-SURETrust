@@ -1,7 +1,8 @@
 import {io } from 'socket.io-client'
-import { baseUrl } from '../baseUrl'
-
-
-export const socket = io(`${baseUrl}`,{
-    autoConnect:false
-})
+export const socket = io(
+  "https://social-media-project-backend-suretrust.onrender.com",
+  {
+    transports: ["polling", "websocket"],
+    autoConnect: true,
+  }
+);
