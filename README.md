@@ -1,73 +1,102 @@
-# React + TypeScript + Vite
+# Social Media Project – Sure Trust
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 **Live Demo:**(https://social-media-project-frontend-suretrust.onrender.com/login)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 About the Project
 
-## React Compiler
+This is a **Social Media Web Application** developed as part of the **Sure Trust Training Program**. The project follows a **full‑stack architecture** with separate frontend and backend repositories.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend Repository:** Provides the user interface and client‑side logic
+* **Backend Repository:** Handles APIs, authentication, database operations, and server‑side logic
 
-## Expanding the ESLint configuration
+Both repositories together form the complete application.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🎯 Project Objectives
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* Understand real‑world full‑stack application structure
+* Implement authentication and protected routes
+* Practice React with TypeScript
+* Learn deployment using **Render**
+* Follow industry‑style project organization
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 🚀 Features
+
+* User Signup & Login
+* Authentication using JWT (or token‑based auth)
+* Chat / Messaging interface
+* Dynamic user interface
+* Responsive design
+* Deployed and accessible online
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React
+* TypeScript
+* Vite
+* CSS
+
+### Backend (if applicable)
+
+* Node.js
+* Express.js
+* MongoDB
+
+### Deployment
+
+* Render
+
+---
+
+## ⚙️ Installation & Setup (Local)
+
+```bash
+# Clone the repository
+git clone https://github.com/pranathiK25/Social-Media-Project-Frontend-SURETrust.git
+
+# Navigate to project folder
+cd social-media-project
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+> **Backend Repository**
+> https://github.com/pranathiK25/Social-Media-Project-Backend-SURETrust
+> 
+---
+
+## 🏫 Sure Trust Acknowledgment
+
+This project was developed as part of the **Sure Trust Training & Internship Program**, focusing on hands‑on learning, real‑world project development, and deployment practices.
+
+---
+
+## 👩‍💻 Author
+
+**Kalavagunta Pranathi Sai**
+
+---
+
+## 📄 License
+
+This project is created for educational purposes as part of the Sure Trust program.
+
+---
+
+✨ *Feel free to explore, learn, and build upon this project!*
